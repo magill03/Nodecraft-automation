@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel — NodeCraft Automation</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-body">
+
+<!-- ===================== LOGIN SCREEN ===================== -->
+<div id="loginScreen" class="login-screen">
+  <div class="login-card">
+    <div class="brand"><span class="dot-mark"></span> NodeCraft Admin</div>
+    <h1>Log in</h1>
+    <p class="sub">Manage every page, service, founder profile, case study, and the site's color theme from here.</p>
+
+    <div id="loginError" class="error-msg admin-hidden"></div>
+
+    <form id="loginForm">
+      <div class="field">
+        <label for="loginUsername">Username</label>
+        <input type="text" id="loginUsername" autocomplete="username" required>
+      </div>
+      <div class="field">
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" autocomplete="current-password" required>
+      </div>
+      <button type="submit" class="btn-admin primary" id="loginBtn">Log In</button>
+    </form>
+
+    <div class="creds-box">
+      <strong>First time here?</strong><br>
+      Username: <strong>admin</strong><br>
+      Password: <strong>Admin@123</strong><br><br>
+      Change this immediately after logging in — see "Account &amp; Password" in the sidebar.
+    </div>
+  </div>
+</div>
+
+<!-- ===================== ADMIN SHELL ===================== -->
+<div id="adminShell" class="admin-shell admin-hidden">
+
+  <aside class="admin-sidebar">
+    <div class="brand"><span class="dot-mark"></span> NodeCraft Admin</div>
+
+    <div class="admin-nav-group">
+      <h4>Overview</h4>
+      <button class="admin-nav-btn" data-section="dashboard">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+        Dashboard
+      </button>
+    </div>
+
+    <div class="admin-nav-group">
+      <h4>Page Text</h4>
+      <button class="admin-nav-btn" data-section="page-home">Home Page</button>
+      <button class="admin-nav-btn" data-section="page-services">Services Page</button>
+      <button class="admin-nav-btn" data-section="page-team">Founders Page</button>
+      <button class="admin-nav-btn" data-section="page-process">How We Work Page</button>
+      <button class="admin-nav-btn" data-section="page-casestudies">Case Studies Page</button>
+      <button class="admin-nav-btn" data-section="page-contact">Contact Page</button>
+    </div>
+
+    <div class="admin-nav-group">
+      <h4>Content</h4>
+      <button class="admin-nav-btn" data-section="services">Manage Services</button>
+      <button class="admin-nav-btn" data-section="founders">Manage Founders</button>
+      <button class="admin-nav-btn" data-section="casestudies">Manage Case Studies</button>
+      <button class="admin-nav-btn" data-section="contact-info">Contact &amp; Social Links</button>
+    </div>
+
+    <div class="admin-nav-group">
+      <h4>Design</h4>
+      <button class="admin-nav-btn" data-section="theme">Color Theme</button>
+    </div>
+
+    <div class="admin-nav-group">
+      <h4>Account</h4>
+      <button class="admin-nav-btn" data-section="account">Account &amp; Password</button>
+    </div>
+  </aside>
+
+  <main class="admin-main">
+    <div class="admin-topbar">
+      <h2 id="topbarTitle">Dashboard</h2>
+      <div class="top-actions">
+        <a href="../index.html" target="_blank" class="btn-admin secondary small">View Live Site ↗</a>
+        <button id="logoutBtn" class="btn-admin secondary small">Log Out</button>
+      </div>
+    </div>
+    <div class="admin-content" id="adminContent">
+      <!-- rendered by admin.js -->
+    </div>
+  </main>
+</div>
+
+<div id="toast" class="admin-panel-toast"></div>
+
+<script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+NodeCraft Automation — Getting This Website Online
+====================================================
+
+WHAT'S DIFFERENT ABOUT THIS SITE
+---------------------------------
+This isn't a plain set of HTML files you can drag onto any web host.
+It now has a small program running behind it (in the "server.js" file)
+that powers the Admin Panel and saves every change you make. Because
+of that, it needs a host that can run Node.js — not a purely "static
+file" host.
+
+Good, easy, cheap options that run Node.js:
+  - Render.com (has a free tier, very beginner-friendly)
+  - Railway.app
+  - Hostinger's Node.js hosting plan (if you're already on Hostinger)
+  - Any VPS (DigitalOcean, Linode, etc.) if you want more control
+
+If your current host is a plain "static site" / "shared hosting" plan
+that does NOT mention Node.js support, this project will not run there
+— you'll need to move to one of the above (Render's free tier is the
+easiest starting point).
+
+HOW TO GET IT ONLINE (Render.com example — free tier)
+---------------------------------------------------------
+1. Create a free account at render.com.
+2. Put this project's files in a GitHub repository (Render deploys
+   from GitHub). If you don't already use GitHub, create a free
+   account at github.com, create a new repository, and upload this
+   entire folder to it.
+3. In Render, click "New +" -> "Web Service" and connect that GitHub
+   repository.
+4. When Render asks for settings, use:
+     Build Command:  npm install
+     Start Command:  npm start
+5. Click "Create Web Service". Render will install everything and
+   start the site. After a minute or two you'll get a live web
+   address like "https://nodecraft-automation.onrender.com".
+6. Your website is now at that address, and your Admin Panel is at
+   that same address + "/admin" — for example:
+     https://nodecraft-automation.onrender.com/admin
+
+(Railway and Hostinger's Node.js hosting work the same way — upload
+the project, tell it "npm install" then "npm start", and it gives you
+a live web address.)
+
+IMPORTANT — DO THIS THE FIRST TIME YOU LOG IN
+---------------------------------------------------------
+The Admin Panel comes with a starter login so you can test it right
+away:
+
+    Username: admin
+    Password: Admin@123
+
+Anyone who finds this password can edit your live website, so change
+it before you tell anyone the site is live:
+
+1. Go to yourwebsite.com/admin and log in with the starter login above.
+2. In the left sidebar, click "Account & Password".
+3. Enter your current password (Admin@123), then choose a new
+   username and a new password (at least 8 characters), and click
+   "Update Login".
+4. From then on, use your new username and password to log in.
+
+That's it — everything else (editing pages, services, founders, case
+studies, images, and the color theme) is done from inside the Admin
+Panel itself, and every change you save there updates the live site
+immediately.
+
+A NOTE ON YOUR OWN DOMAIN NAME
+---------------------------------------------------------
+Once the site is live on Render (or wherever you host it), you can
+point your own domain name (like nodecraftautomation.com) at it.
+Each host has a "Custom Domain" setting in its dashboard that walks
+you through this — it usually just means adding a couple of DNS
+records with whoever you bought your domain from (GoDaddy,
+Namecheap, etc.).

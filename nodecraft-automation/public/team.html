@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team — NodeCraft Automation</title>
+<meta name="description" content="Meet the three founders behind NodeCraft Automation — Umer Faryad, Daniyal Ayaz, and Ammar Gill — each owning one pillar of the business end-to-end.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<!-- ================= HEADER / NAV ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="7" cy="8" r="3.2" fill="#22D3EE"/>
+        <circle cx="25" cy="8" r="3.2" fill="#3E7CFF"/>
+        <circle cx="16" cy="24" r="3.2" fill="#3E7CFF"/>
+        <path d="M9.5 9.5 14 21M22.5 9.5 18 21M10 8H22" stroke="#3C4B66" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      NodeCraft <span style="color:var(--text-muted); font-weight:500;">Automation</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="team.html" class="active">Team</a>
+      <a href="process.html">Process</a>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="services.html" class="btn btn-secondary">See Our Services</a>
+      <a href="contact.html" class="btn btn-primary">Book a Free Audit</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="team.html">Team</a>
+    <a href="process.html">Process</a>
+    <a href="case-studies.html">Case Studies</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary">Book a Free Automation Audit</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= PAGE HERO ================= -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb reveal">
+        <a href="index.html">Home</a><span class="sep">/</span><span class="current">Team</span>
+      </div>
+      <span class="eyebrow reveal"><span class="dot"></span> <span data-edit="pages.team.heroEyebrow">Meet The Founders</span></span>
+      <h1 class="reveal" data-edit="pages.team.heroHeading">Three founders. One business, built end-to-end.</h1>
+      <p class="reveal" data-edit="pages.team.heroDesc">We believe most small businesses are drowning in repetitive manual work that automation could eliminate — so we built NodeCraft Automation to fix exactly that, with n8n as our core platform. Each of us owns one pillar of the business, so nothing gets lost between "sold" and "delivered."</p>
+    </div>
+  </section>
+
+  <!-- ================= DEMO VIDEO (hidden automatically when no video is set) ================= -->
+  <section class="video-section" id="team-video-section" style="display:none;">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> Meet The Team</span>
+        <h2>Get to know the people behind the work.</h2>
+      </div>
+      <div class="video-frame reveal" id="team-video-frame"></div>
+    </div>
+  </section>
+
+  <!-- ================= FOUNDER PROFILES ================= -->
+  <section class="section-pad" style="padding-top: var(--space-3);">
+    <div class="container" id="team-founders"></div>
+  </section>
+
+  <!-- ================= WHY WE WORK WELL TOGETHER ================= -->
+  <section class="section-pad bg-alt">
+    <div class="container">
+      <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+        <span class="eyebrow"><span class="dot"></span> <span data-edit="pages.team.whyEyebrow">Why We Work Well Together</span></span>
+        <h2 data-edit="pages.team.whyHeading">Three pillars, one shared foundation.</h2>
+        <p data-edit="pages.team.whyDesc">Each of us owns a distinct part of the business, but we all speak the same language — automation and clear client communication.</p>
+      </div>
+
+      <div class="pillar-grid reveal-stagger">
+        <div class="pillar-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="7" height="7" rx="1.5"/><rect x="14" y="4" width="7" height="7" rx="1.5"/><rect x="8.5" y="14" width="7" height="7" rx="1.5"/><path d="M6.5 11v3M17.5 11v3"/></svg>
+          </div>
+          <h3>Delivery</h3>
+          <p>Every workflow is designed, built, and tested to a technical standard, not just "good enough to demo."</p>
+          <span class="pillar-owner" id="pillar-owner-0">Owned by Umer</span>
+        </div>
+        <div class="pillar-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>Sales &amp; Success</h3>
+          <p>What's promised in the sales call is exactly what's scoped, built, and delivered — no gap between the two.</p>
+          <span class="pillar-owner" id="pillar-owner-1">Owned by Daniyal</span>
+        </div>
+        <div class="pillar-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z"/><circle cx="19" cy="19" r="2"/></svg>
+          </div>
+          <h3>Brand &amp; Growth</h3>
+          <p>A steady pipeline of the right prospects, and a brand that looks like what a real automation partner should.</p>
+          <span class="pillar-owner" id="pillar-owner-2">Owned by Ammar</span>
+        </div>
+      </div>
+
+      <div class="foundation-banner reveal">
+        <div class="icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="3.2"/><circle cx="17" cy="7" r="3.2"/><circle cx="12" cy="18" r="3.2"/><path d="M9.4 8.6l2.1 7M14.6 8.6l-2.1 7M9.8 6.2h4.4"/></svg>
+        </div>
+        <p data-edit-html="pages.team.foundationText"><strong>Nothing falls through the cracks:</strong> all three of us share a common foundation in automation fundamentals and client communication — so whoever you talk to, you're talking to someone who understands the whole project, not just their slice of it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CLOSING CTA ================= -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="cta-panel reveal">
+        <span class="eyebrow"><span class="dot"></span> <span data-edit="pages.team.ctaEyebrow">Let's Talk</span></span>
+        <h2 data-edit="pages.team.ctaHeading">Ready to work directly with the people building your automations?</h2>
+        <p data-edit="pages.team.ctaDesc">Book a free automation audit and get on a call with the team — no account managers, no hand-offs.</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-primary">Book a Free Automation Audit</a>
+          <a href="process.html" class="btn btn-secondary">See Our Process</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <svg class="logo-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7" cy="8" r="3.2" fill="#22D3EE"/>
+            <circle cx="25" cy="8" r="3.2" fill="#3E7CFF"/>
+            <circle cx="16" cy="24" r="3.2" fill="#3E7CFF"/>
+            <path d="M9.5 9.5 14 21M22.5 9.5 18 21M10 8H22" stroke="#3C4B66" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          NodeCraft <span style="color:var(--text-muted); font-weight:500;">Automation</span>
+        </a>
+        <p>We build the automations that run your business while you run your business.</p>
+        <div class="social-row" id="footer-social-row">
+          <a href="#" aria-label="LinkedIn" id="footer-social-linkedin"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2.5 2.5 0 015 0V17M12 10v7"/></svg></a>
+          <a href="#" aria-label="Twitter / X" id="footer-social-twitter"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+          <a href="#" aria-label="YouTube" id="footer-social-youtube"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M11 10l4 2-4 2z"/></svg></a>
+          <a href="#" aria-label="Instagram" id="footer-social-instagram"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="process.html">Process</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="case-studies.html">Case Studies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Book an Audit</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@nodecraftautomation.com" id="footer-email">hello@nodecraftautomation.com</a></li>
+          <li><a href="#">Based remotely, working worldwide</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 NodeCraft Automation. All rights reserved.</span>
+      <span>Placeholder name — pending confirmation.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="photo-lightbox-overlay" id="founderPhotoOverlay" role="dialog" aria-modal="true" aria-label="Founder photo">
+  <div class="photo-lightbox">
+    <button class="photo-lightbox-close" id="founderPhotoClose" aria-label="Close photo">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="photo-lightbox-frame" id="founderPhotoFrame"></div>
+    <p class="photo-lightbox-caption" id="founderPhotoCaption"></p>
+  </div>
+</div>
+
+<script src="js/site-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

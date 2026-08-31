@@ -1,0 +1,78 @@
+{
+  "midnight-navy": {
+    "label": "Midnight Navy",
+    "vars": {
+      "--bg-void": "#0A0E17",
+      "--bg-panel": "#101827",
+      "--bg-panel-alt": "#0D1420",
+      "--border-soft": "#1E2B42",
+      "--border-strong": "#2A3B57",
+      "--blue": "#3E7CFF",
+      "--blue-dim": "#2A5BD1",
+      "--cyan": "#22D3EE",
+      "--cyan-dim": "#14A8C0",
+      "--text-primary": "#E9EEF7",
+      "--text-secondary": "#A6B3C7",
+      "--text-muted": "#6B7A93",
+      "--success": "#2ED3A5"
+    },
+    "swatch": ["#0A0E17", "#3E7CFF", "#22D3EE"]
+  },
+  "deep-slate": {
+    "label": "Deep Slate",
+    "vars": {
+      "--bg-void": "#0B0F12",
+      "--bg-panel": "#151B20",
+      "--bg-panel-alt": "#11161A",
+      "--border-soft": "#232B31",
+      "--border-strong": "#323C44",
+      "--blue": "#5B8AA6",
+      "--blue-dim": "#3F6A82",
+      "--cyan": "#7FD1C4",
+      "--cyan-dim": "#57A99C",
+      "--text-primary": "#EAEEF0",
+      "--text-secondary": "#AAB4B9",
+      "--text-muted": "#6E7A80",
+      "--success": "#3FBF8F"
+    },
+    "swatch": ["#0B0F12", "#5B8AA6", "#7FD1C4"]
+  },
+  "graphite-blue": {
+    "label": "Graphite Blue",
+    "vars": {
+      "--bg-void": "#0D1117",
+      "--bg-panel": "#161B22",
+      "--bg-panel-alt": "#10141A",
+      "--border-soft": "#242B36",
+      "--border-strong": "#333D4D",
+      "--blue": "#4C8DFF",
+      "--blue-dim": "#3468C9",
+      "--cyan": "#5AC8FA",
+      "--cyan-dim": "#3D9FCC",
+      "--text-primary": "#E6EBF2",
+      "--text-secondary": "#9FA9B8",
+      "--text-muted": "#66707F",
+      "--success": "#34D399"
+    },
+    "swatch": ["#0D1117", "#4C8DFF", "#5AC8FA"]
+  },
+  "charcoal-cyan": {
+    "label": "Charcoal Cyan",
+    "vars": {
+      "--bg-void": "#0C0F10",
+      "--bg-panel": "#16191B",
+      "--bg-panel-alt": "#111415",
+      "--border-soft": "#242A2C",
+      "--border-strong": "#333B3D",
+      "--blue": "#2FB8C6",
+      "--blue-dim": "#248F99",
+      "--cyan": "#38E2E2",
+      "--cyan-dim": "#26B3B3",
+      "--text-primary": "#EAF4F4",
+      "--text-secondary": "#A3B4B4",
+      "--text-muted": "#647575",
+      "--success": "#2ED3A5"
+    },
+    "swatch": ["#0C0F10", "#2FB8C6", "#38E2E2"]
+  }
+}

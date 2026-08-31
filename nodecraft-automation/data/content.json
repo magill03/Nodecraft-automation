@@ -1,0 +1,288 @@
+{
+  "theme": "midnight-navy",
+  "contact": {
+    "email": "hello@nodecraftautomation.com",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#",
+      "youtube": "#",
+      "instagram": "#"
+    }
+  },
+  "pages": {
+    "home": {
+      "heroEyebrow": "n8n Workflow Automation Studio",
+      "heroHeading": "We build the automations that <span class=\"accent\">run your business</span> while you run your business.",
+      "heroDesc": "NodeCraft Automation designs and maintains custom n8n workflows, API integrations, and AI-powered automations that quietly take repetitive work off your team's plate.",
+      "whyEyebrow": "Why Automation",
+      "whyHeading": "The manual work is costing you more than time.",
+      "whyDesc": "Every repeated task your team does by hand is a task that could be running itself, correctly, every single time.",
+      "servicesEyebrow": "What We Do",
+      "servicesHeading": "Automation built around how your business actually runs.",
+      "servicesDesc": "From a single workflow to a fully connected operations stack, here's where most engagements start.",
+      "teamEyebrow": "Meet The Team",
+      "teamHeading": "Three founders. One accountable team.",
+      "teamDesc": "Each of us owns one pillar of the business end-to-end.",
+      "processEyebrow": "How We Work",
+      "processHeading": "From first call to live automation, in three steps.",
+      "processDesc": "A clear, predictable process so you always know what's happening and when.",
+      "caseEyebrow": "Case Studies",
+      "caseHeading": "A look at the kind of work we do.",
+      "caseDesc": "Real project format, sample details — full case studies coming as we publish client results.",
+      "ctaEyebrow": "Let's Talk",
+      "ctaHeading": "See exactly what's worth automating in your business.",
+      "ctaDesc": "Book a free automation audit — a short call where we map your manual workflows and show you where automation would save the most time.",
+      "video": ""
+    },
+    "services": {
+      "heroEyebrow": "What We Do",
+      "heroHeading": "Automation services built around how your business actually runs.",
+      "heroDesc": "Four ways we typically get started — from a single automated workflow to a fully supported operations stack.",
+      "pricingNote": "Pricing shown is a starting estimate. Every project gets a fixed, written quote after your free discovery call.",
+      "scopeEyebrow": "How We Scope A Project",
+      "scopeHeading": "No surprise invoices. Ever.",
+      "scopeDesc": "Every engagement — no matter the size — follows the same three steps before we write a single node.",
+      "ctaEyebrow": "Let's Talk",
+      "ctaHeading": "Not sure which service fits? Let's map it out together.",
+      "ctaDesc": "Book a free automation audit and we'll tell you honestly what's worth automating first — and what isn't.",
+      "video": ""
+    },
+    "team": {
+      "heroEyebrow": "Meet The Founders",
+      "heroHeading": "Three founders. One business, built end-to-end.",
+      "heroDesc": "We believe most small businesses are drowning in repetitive manual work that automation could eliminate — so we built NodeCraft Automation to fix exactly that, with n8n as our core platform. Each of us owns one pillar of the business, so nothing gets lost between \"sold\" and \"delivered.\"",
+      "whyEyebrow": "Why We Work Well Together",
+      "whyHeading": "Three pillars, one shared foundation.",
+      "whyDesc": "Each of us owns a distinct part of the business, but we all speak the same language — automation and clear client communication.",
+      "foundationText": "<strong>Nothing falls through the cracks:</strong> all three of us share a common foundation in automation fundamentals and client communication — so whoever you talk to, you're talking to someone who understands the whole project, not just their slice of it.",
+      "ctaEyebrow": "Let's Talk",
+      "ctaHeading": "Ready to work directly with the people building your automations?",
+      "ctaDesc": "Book a free automation audit and get on a call with the team — no account managers, no hand-offs.",
+      "video": ""
+    },
+    "process": {
+      "heroEyebrow": "How We Work",
+      "heroHeading": "A clear, predictable path from first call to live automation.",
+      "heroDesc": "Five steps, no surprises. Here's exactly what happens at each stage of working with us.",
+      "faqEyebrow": "FAQ",
+      "faqHeading": "Common questions before getting started.",
+      "faqDesc": "A few things people usually ask on the discovery call — answered up front.",
+      "ctaEyebrow": "Let's Talk",
+      "ctaHeading": "Ready to see this process in action?",
+      "ctaDesc": "Book a free automation audit and we'll start with step one — a conversation about where your time is actually going.",
+      "steps": [
+        {
+          "title": "Free Discovery Call",
+          "desc": "We learn about your current manual processes and pinpoint exactly where time is being lost — no obligation, no pitch deck.",
+          "badge": ""
+        },
+        {
+          "title": "Proposal &amp; Pricing",
+          "desc": "You receive a written scope and a fixed price before any work begins. No hourly billing, no surprises on the invoice.",
+          "badge": ""
+        },
+        {
+          "title": "Build &amp; Test",
+          "desc": "Our automation engineer builds your workflow in n8n and we test it thoroughly against real scenarios before it ever touches your real data.",
+          "badge": ""
+        },
+        {
+          "title": "Handover &amp; Training",
+          "desc": "We walk you and your team through exactly how your new automation works, so you're never in the dark about your own systems.",
+          "badge": ""
+        },
+        {
+          "title": "Ongoing Support",
+          "desc": "We monitor and maintain your automations on a monthly basis so they keep running reliably as your tools and business evolve.",
+          "badge": "Optional"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How long does a typical automation take to build?",
+          "a": "Most single-workflow projects take one to two weeks from signed proposal to handover. Larger, multi-system integrations can take longer — you'll get a specific timeline in your written proposal, not a vague estimate."
+        },
+        {
+          "q": "Do I need any technical knowledge?",
+          "a": "No. You don't need to know anything about n8n, APIs, or code. We handle the technical build entirely and walk you through how to use and monitor your automation in plain language during handover."
+        },
+        {
+          "q": "What if something breaks after handover?",
+          "a": "Every project includes a short warranty window after handover for us to fix anything that isn't working as scoped. After that, our optional monthly support plan keeps things monitored and maintained long-term."
+        },
+        {
+          "q": "What tools do you typically work with?",
+          "a": "We build primarily in n8n and connect it to whatever you already use — common examples include CRMs, Google Sheets, Airtable, Slack, email platforms, and AI tools like OpenAI and Claude. If you use something specific, ask us on the discovery call."
+        }
+      ]
+    },
+    "caseStudies": {
+      "heroEyebrow": "Case Studies",
+      "heroHeading": "The kind of work we do — and the kind of results it drives.",
+      "heroDesc": "Click any project below for the full breakdown of the problem, the automation we'd build, and the outcome.",
+      "note": "These are illustrative sample projects, not published client work yet. Real results will replace them as we complete our first engagements.",
+      "ctaEyebrow": "Let's Talk",
+      "ctaHeading": "Want results like these for your business?",
+      "ctaDesc": "Book a free automation audit and we'll map out what a project like this could look like for you."
+    },
+    "contact": {
+      "heroEyebrow": "Let's Talk",
+      "heroHeading": "Book a free automation audit.",
+      "heroDesc": "Tell us what's eating up your team's time. We'll come back with where automation would make the biggest difference — no pressure, no obligation.",
+      "formSuccessHeading": "Message sent.",
+      "formSuccessDesc": "Thanks for reaching out — we'll get back to you within one business day to set up your free automation audit.",
+      "personName": "Daniyal Ayaz",
+      "personRole": "Sales &amp; Client Success",
+      "personBlurb": "Daniyal personally handles every inbound inquiry — from your first message through your discovery call and beyond."
+    }
+  },
+  "services": [
+    {
+      "id": "svc-1",
+      "title": "Workflow Automation Setup",
+      "desc": "We design and build custom n8n workflows that automate the repetitive, multi-step tasks running your business today.",
+      "price": "750",
+      "priceUnit": "/ project",
+      "icon": "workflow",
+      "features": [
+        "Custom triggers &amp; multi-step logic",
+        "Built-in error handling &amp; alerts",
+        "Tested against your real data"
+      ]
+    },
+    {
+      "id": "svc-2",
+      "title": "API &amp; Tool Integrations",
+      "desc": "We connect the CRM, email, spreadsheets, and databases you already use, so data moves between them automatically.",
+      "price": "950",
+      "priceUnit": "/ project",
+      "icon": "integration",
+      "features": [
+        "Native &amp; custom API connections",
+        "Two-way data syncing",
+        "No more manual copy-paste"
+      ]
+    },
+    {
+      "id": "svc-3",
+      "title": "AI-Powered Automation",
+      "desc": "We embed OpenAI and Claude directly into your workflows to handle lead qualification, content drafting, and customer replies.",
+      "price": "1,200",
+      "priceUnit": "/ project",
+      "icon": "ai",
+      "features": [
+        "AI lead scoring &amp; qualification",
+        "Automated drafting &amp; replies",
+        "Human-in-the-loop review options"
+      ]
+    },
+    {
+      "id": "svc-4",
+      "title": "Ongoing Automation Support",
+      "desc": "Monthly monitoring, maintenance, and improvement so the automations we build keep running reliably as your tools change.",
+      "price": "300",
+      "priceUnit": "/ month",
+      "icon": "support",
+      "features": [
+        "Proactive monitoring &amp; alerts",
+        "Fixes when tools or APIs change",
+        "Monthly optimization review"
+      ]
+    }
+  ],
+  "founders": [
+    {
+      "id": "f-1",
+      "name": "Umer Faryad",
+      "role": "Automation Engineer",
+      "eyebrow": "Delivery",
+      "pillarOwner": "Delivery",
+      "initials": "UF",
+      "tone": "cyan",
+      "photo": "",
+      "bio": "Umer owns the technical delivery of every client automation — from the first workflow diagram to build, testing, handover, and long-term maintenance. If it runs inside n8n, it runs through him first.",
+      "skills": [
+        "n8n workflow architecture",
+        "API integrations &amp; webhooks",
+        "AI/LLM integration (OpenAI &amp; Claude)",
+        "JavaScript / Python scripting",
+        "Airtable, Google Sheets &amp; SQL"
+      ]
+    },
+    {
+      "id": "f-2",
+      "name": "Daniyal Ayaz",
+      "role": "Sales &amp; Client Success",
+      "eyebrow": "Sales",
+      "pillarOwner": "Sales &amp; Success",
+      "initials": "DA",
+      "tone": "blue",
+      "photo": "",
+      "bio": "Daniyal owns everything from first contact to signed client — and stays the main point of contact after that. He's the person who makes sure what gets sold is what actually gets built.",
+      "skills": [
+        "Client discovery &amp; needs analysis",
+        "Proposal &amp; pricing strategy",
+        "Live automation demos",
+        "Ongoing client relationship management"
+      ]
+    },
+    {
+      "id": "f-3",
+      "name": "Ammar Gill",
+      "role": "Brand &amp; Lead Generation",
+      "eyebrow": "Brand &amp; Growth",
+      "pillarOwner": "Brand &amp; Growth",
+      "initials": "AG",
+      "tone": "cyan",
+      "photo": "",
+      "bio": "Ammar owns the agency's public face and the pipeline of prospects behind it — from the website you're looking at right now to the leads that keep the business growing.",
+      "skills": [
+        "Brand &amp; website management",
+        "Lead sourcing &amp; data enrichment",
+        "Case study writing",
+        "Copywriting"
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "cs-1",
+      "tag": "Real Estate",
+      "title": "Lead Qualification Automation for a Local Real Estate Agency",
+      "desc": "Leads from the website, Facebook ads, and referrals had to be manually reviewed before agents could follow up — causing delays and dropped leads.",
+      "result": "Saved an estimated 8+ hours per week on manual lead sorting.",
+      "problem": "New leads arrived from the agency's website form, Facebook ad campaigns, and referral partners — each landing in a different inbox or spreadsheet. Agents had to manually check every source, judge lead quality, and decide who to assign it to, often hours after the lead first came in. By the time follow-up happened, some prospects had already gone with a competitor.",
+      "automation": "We built an n8n workflow that watches all three lead sources in real time. As soon as a lead comes in, it's automatically enriched with basic contact and property-interest data, scored for quality using an AI step, and routed straight into the right agent's CRM pipeline. A Slack notification alerts the agent instantly, with the lead's score and summary attached.",
+      "resultFull": "Saved an estimated 8+ hours per week previously spent on manual lead sorting and follow-up.",
+      "sample": true,
+      "thumbnail": "",
+      "video": ""
+    },
+    {
+      "id": "cs-2",
+      "tag": "Marketing Agency",
+      "title": "Automated Client Onboarding for a Marketing Agency",
+      "desc": "Onboarding a new client meant manually creating folders, sending welcome emails, and updating spreadsheets across multiple tools.",
+      "result": "Cut onboarding time per client from ~3 hours to under 15 minutes.",
+      "problem": "Every new signed client meant the same manual checklist: create a shared folder, send a welcome email, schedule the kickoff call, and update both the CRM and the internal project tracker. It was repetitive, easy to forget a step on, and pulled time away from actual client work.",
+      "automation": "We built a single n8n workflow triggered the moment a contract is marked as signed. It automatically creates the client's folder structure, sends a personalized welcome email, finds a kickoff call slot and sends the invite, then updates the CRM record and project tracker — all without anyone touching a spreadsheet.",
+      "resultFull": "Cut onboarding time per new client from roughly 3 hours down to under 15 minutes.",
+      "sample": true,
+      "thumbnail": "",
+      "video": ""
+    },
+    {
+      "id": "cs-3",
+      "tag": "E-commerce",
+      "title": "Inventory &amp; Order Sync for an E-commerce Store",
+      "desc": "Stock levels lived in three disconnected places, so counts were constantly out of date and items oversold.",
+      "result": "Reduced overselling incidents by an estimated 90% in month one.",
+      "problem": "Stock levels lived in three disconnected places: the Shopify store, an internal spreadsheet, and manual email updates from the supplier. Reconciling them by hand meant stock counts were frequently out of date, leading to overselling items that were actually out of stock and delays getting accurate fulfillment information to customers.",
+      "automation": "We connected Shopify, the supplier's inventory feed, and the internal spreadsheet into a single automated sync in n8n. Stock levels and order statuses now update in real time across every system, and the workflow automatically sends a low-stock alert to the team before an item actually runs out.",
+      "resultFull": "Reduced overselling incidents by an estimated 90% within the first month.",
+      "sample": true,
+      "thumbnail": "",
+      "video": ""
+    }
+  ]
+}
